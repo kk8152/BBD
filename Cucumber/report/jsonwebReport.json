@@ -1,0 +1,988 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate an php travels rgistor page and billing page with valid data",
+        "description": "",
+        "id": "validate-an-php-travels-rgistor-page-and-billing-page;validate-an-php-travels-rgistor-page-and-billing-page-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user open her there Browser as us Browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user enter her the url as us https://phptravels.org/register.php",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enter her firstname as us Karuna",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enter the lastname as us karan",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user enter the emailId as us karunaeee",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enter the mobileno as us 9500",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user enter the companyname as us Vcentry",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user enter the address as us Adyar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user enter the streetaddress as us Adyarsignal",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user enter the cityname as us Chennai",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user enter the statename as us Tamilnadu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user enter the postcode as us 600030",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user click how to select as us Google",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Validate an php travels rgistor page and billing page with valid data",
+        "description": "",
+        "id": "validate-an-php-travels-rgistor-page-and-billing-page;validate-an-php-travels-rgistor-page-and-billing-page-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2516125468,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user open her there Browser as us \"Chromedriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chromedriver",
+                  "offset": 35
+                }
+              ],
+              "location": "ExpracticTest.user_open_her_there_Browser_as_us(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6582470580,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter her the url as us \"https://phptravels.org/register.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://phptravels.org/register.php",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_the_url_as_us(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89646712,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enter her firstname as us \"Karuna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Karuna",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_firstname_as_us(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85843712,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter the lastname as us \"karan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "karan",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_lastname_as_us(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82131274,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter the emailId as us \"karunaeee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "karunaeee",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_emailId_as_us(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80025406,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter the mobileno as us \"9600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9600",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_mobileno_as_us(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86950983,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter the companyname as us \"Vmentry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vmentry",
+                  "offset": 34
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_companyname_as_us(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83759579,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter the address as us \"chrompet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrompet",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_address_as_us(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78695351,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter the streetaddress as us \"Adyar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adyar",
+                  "offset": 36
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_streetaddress_as_us(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91815973,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter the cityname as us \"Velupuram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Velupuram",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_cityname_as_us(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82994028,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter the statename as us \"Tamilnadu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamilnadu",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_statename_as_us(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79220008,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter the postcode as us \"600230\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600230",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_postcode_as_us(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1472742048,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click how to select as us \"Bing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bing",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_click_how_to_select_as_us(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Validate an php travels rgistor page and billing page with valid data",
+        "description": "",
+        "id": "validate-an-php-travels-rgistor-page-and-billing-page;validate-an-php-travels-rgistor-page-and-billing-page-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207406885,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user open her there Browser as us \"Chromedriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chromedriver",
+                  "offset": 35
+                }
+              ],
+              "location": "ExpracticTest.user_open_her_there_Browser_as_us(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8530679384,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter her the url as us \"https://phptravels.org/register.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://phptravels.org/register.php",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_the_url_as_us(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80504781,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enter her firstname as us \"Chandra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chandra",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_firstname_as_us(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77970253,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter the lastname as us \"Mani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mani",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_lastname_as_us(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85654135,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter the emailId as us \"karunaesd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "karunaesd",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_emailId_as_us(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85274982,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter the mobileno as us \"9865\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9865",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_mobileno_as_us(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90924844,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter the companyname as us \"Vcentry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vcentry",
+                  "offset": 34
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_companyname_as_us(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99785428,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter the address as us \"Vandalur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vandalur",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_address_as_us(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105924927,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter the streetaddress as us \"Thiruvamiyur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thiruvamiyur",
+                  "offset": 36
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_streetaddress_as_us(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90871109,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter the cityname as us \"Chengalpadu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chengalpadu",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_cityname_as_us(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84679084,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter the statename as us \"Tamilnadu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamilnadu",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_statename_as_us(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82749511,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter the postcode as us \"600004\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600004",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_postcode_as_us(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1777907583,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click how to select as us \"Other\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Other",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_click_how_to_select_as_us(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Validate an php travels rgistor page and billing page with valid data",
+        "description": "",
+        "id": "validate-an-php-travels-rgistor-page-and-billing-page;validate-an-php-travels-rgistor-page-and-billing-page-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207233609,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user open her there Browser as us \"Chromedriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chromedriver",
+                  "offset": 35
+                }
+              ],
+              "location": "ExpracticTest.user_open_her_there_Browser_as_us(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10500286176,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter her the url as us \"https://phptravels.org/register.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://phptravels.org/register.php",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_the_url_as_us(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76497714,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enter her firstname as us \"Karunak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Karunak",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_her_firstname_as_us(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77643626,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter the lastname as us \"Kali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kali",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_lastname_as_us(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93057276,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter the emailId as us \"kaliyappenk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kaliyappenk",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_emailId_as_us(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81157430,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter the mobileno as us \"8827\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8827",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_mobileno_as_us(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92355119,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter the companyname as us \"Vsentry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vsentry",
+                  "offset": 34
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_companyname_as_us(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90121256,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter the address as us \"Goldanflat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Goldanflat",
+                  "offset": 30
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_address_as_us(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97807555,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter the streetaddress as us \"sollinanalur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sollinanalur",
+                  "offset": 36
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_streetaddress_as_us(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89052625,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter the cityname as us \"Thiruchy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thiruchy",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_cityname_as_us(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95659424,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter the statename as us \"Tamilnadu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamilnadu",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_statename_as_us(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80875481,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter the postcode as us \"600048\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600048",
+                  "offset": 31
+                }
+              ],
+              "location": "ExpracticTest.user_enter_the_postcode_as_us(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286656476,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click how to select as us \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 32
+                }
+              ],
+              "location": "ExpracticTest.user_click_how_to_select_as_us(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate an php travels rgistor page and billing page",
+    "description": "",
+    "id": "validate-an-php-travels-rgistor-page-and-billing-page",
+    "keyword": "Feature",
+    "uri": "Featurefile/Expractice.feature"
+  }
+]

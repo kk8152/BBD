@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate php travels registor page with valid data",
+        "description": "",
+        "id": "validate-php-travels-registor-page;validate-php-travels-registor-page-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2329506390,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open browser as chromdriver",
+            "match": {
+              "location": "PhpTest.user_open_browser_as_chromdriver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11855028539,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "PhpTest.user_enter_enter_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204927653,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter firstname",
+            "match": {
+              "location": "PhpTest.user_enter_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134343722,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter lastname",
+            "match": {
+              "location": "PhpTest.user_enter_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154103117,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter emailid",
+            "match": {
+              "location": "PhpTest.user_enter_emailid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134964373,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter mobileno",
+            "match": {
+              "location": "PhpTest.user_enter_mobileno()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate php travels registor page",
+    "description": "",
+    "id": "validate-php-travels-registor-page",
+    "keyword": "Feature",
+    "uri": "Featurefile/php.feature"
+  }
+]
